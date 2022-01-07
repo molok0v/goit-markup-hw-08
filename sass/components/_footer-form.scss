@@ -1,0 +1,46 @@
+.follow__input {
+  font-size: 16px;
+  color: $white;
+  width: 100%;
+  height: 50px;
+  padding-left: 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  &:focus {
+    border-color: $white;
+  }
+  @media screen and(min-width:768px) {
+    width: 450px;
+  }
+  @media screen and(min-width:1200px) {
+    width: 358px;
+  }
+}
+.follow__form {
+  @media screen and(min-width:1200px) {
+    display: flex;
+  }
+
+  // display: flex;
+  margin-top: 20px;
+}
+.follow__form .button {
+  margin-top: 20px;
+
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and(min-width:1200px) {
+    margin-left: 12px;
+    margin-top: 0;
+  }
+}
+.icon-send {
+  margin-left: 10px;
+}

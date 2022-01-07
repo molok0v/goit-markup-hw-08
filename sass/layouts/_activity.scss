@@ -1,0 +1,35 @@
+.activity {
+  display: none;
+  @media screen and(min-width:1200px) {
+    display: block;
+  }
+}
+
+.activity__item {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
+  position: relative;
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+.activity__block {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.activity__title {
+  margin: 0;
+  color: $white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
