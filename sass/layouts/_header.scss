@@ -142,8 +142,8 @@
     border: none;
     background-color: transparent;
 margin-left: auto;
-&:hover,
-&:focus {
+&:hover .menu-open,
+&:focus .menu-open {
   fill: var(--accent-color);
 }
 @media screen and (min-width: 768px){

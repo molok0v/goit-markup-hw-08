@@ -397,7 +397,8 @@ img {
   margin-left: auto;
 }
 
-.open-menu-btn:hover, .open-menu-btn:focus {
+.open-menu-btn:hover .menu-open,
+.open-menu-btn:focus .menu-open {
   fill: var(--accent-color);
 }
 
